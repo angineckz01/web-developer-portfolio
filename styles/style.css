@@ -11,6 +11,9 @@
 .color-primary{
     color: #FD6E0A;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .btn-primary{
     color: white;
     background-color: #FD6E0A;
@@ -19,6 +22,24 @@
     padding: 18px 35px;
     border-radius: 5px;
     border: none;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description-primary{
+    font-size: 18px;
+    color: #757575;
+    font-weight: normal;
+}
+.section-description-secondary{
+    font-size: 16px;
+    color: #757575;
+    font-weight: normal;
+}
+.dark-1{
+    color: #181818;
 }
 .dark-2{
     color: #474747;
@@ -75,4 +96,31 @@ nav ul li a{
 }
 .banner-description{
     font-size: 18px;
+}
+/* ===========main section========== */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* ========about section ============ */
+.about{
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 130px;
+    padding: 130px 155px;
+}
+.about-identity{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.basic-info {
+    font-size: 20;
+    font-weight: normal;
+    color: #757575;
+}
+.basic-info-ans{
+    font-size: 20;
+    font-weight: bold;
+    color: #757575;
 }
